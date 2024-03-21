@@ -1,34 +1,75 @@
-h1 {
-    color: rgb(255, 0, 149);
-    background-color: yellow;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.text-blue {
-    color: rgb(10, 10, 208);
+.center {
+    margin: auto;
+    width: 40%;
+    border: 3px solid lightgray padding: 10px;
+}
+
+.card {
+
+    background-color: lightgray;
+    font-size: 60px;
+    border: 2x solid lightgray;
+    border-radius: 20px;
+}
+
+.center-1 {
+    margin: auto;
+    width: 29%;
+    padding: 20px;
 
 }
 
-.text-purple {
-    color: rgb(108, 7, 108);
+.center-2 {
+    margin: auto;
+    width: 40%;
+    padding: 20px;
 }
 
-.fs_20 {
-    font-size: 20px;
+
+
+.text-orange {
+    color: orange
 }
 
-.fs_30 {
-    font-size: 30px;
+.text-teal {
+    color: teal
+}
+
+.fs_40 {
+    font-size: 40px;
+}
+
+.sfondo {
+    background-color: rgba(255, 165, 0, 0.2);
+}
+
+.fs_50 {
+    font-size: 50px;
+}
+
+.fs_70 {
+    font-size: 70px;
 }
 
 
 h2 {
-    color: aqua
+    color: darkgreen
 }
 
 h3 {
-    color: yellowgreen
+    color: lightgrey
 }
 
-.text-brown {
-    color: brown
+.text-fuchsia {
+    color: fuchsia
+}
+
+.text-light-green {
+    color: lightgreen
 }
