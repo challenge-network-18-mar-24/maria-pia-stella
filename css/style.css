@@ -1,75 +1,71 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .center {
-    margin: auto;
-    width: 40%;
-    border: 3px solid lightgray padding: 10px;
+  margin: auto;
+  width: 40%;
+  border: 3px solid lightgray;
+  padding: 10px; /* aggiunto punto e virgola */
 }
 
 .card {
-
-    background-color: lightgray;
-    font-size: 60px;
-    border: 2x solid lightgray;
-    border-radius: 20px;
+  background-color: lightgray;
+  font-size: 60px;
+  border: 2px solid lightgray; /* aggiunto punto e virgola */
+  border-radius: 20px;
 }
 
 .center-1 {
-    margin: auto;
-    width: 29%;
-    padding: 20px;
-
+  margin: auto;
+  width: 29%;
+  padding: 20px;
 }
 
 .center-2 {
-    margin: auto;
-    width: 40%;
-    padding: 20px;
+  margin: auto;
+  width: 40%;
+  padding: 20px;
 }
 
-
-
 .text-orange {
-    color: orange
+  color: orange;
 }
 
 .text-teal {
-    color: teal
+  color: teal;
 }
 
 .fs_40 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .sfondo {
-    background-color: rgba(255, 165, 0, 0.2);
+  background-color: rgba(255, 165, 0, 0.2);
 }
 
 .fs_50 {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .fs_70 {
-    font-size: 70px;
+  font-size: 70px;
 }
 
-
 h2 {
-    color: darkgreen
+  color: darkgreen;
 }
 
 h3 {
-    color: lightgrey
+  color: lightgrey;
 }
 
 .text-fuchsia {
-    color: fuchsia
+  color: fuchsia;
 }
 
 .text-light-green {
-    color: lightgreen
+  color: lightgreen;
 }
