@@ -1,71 +1,72 @@
+/* CSS Reset */
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.center {
-  margin: auto;
-  width: 40%;
-  border: 3px solid lightgray;
-  padding: 10px; /* aggiunto punto e virgola */
+
+body {
+    font-family: 'Sunflower', sans-serif;
+    background-color: rgb(177, 165, 99);
 }
 
-.card {
-  background-color: lightgray;
-  font-size: 60px;
-  border: 2px solid lightgray; /* aggiunto punto e virgola */
-  border-radius: 20px;
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
-.center-1 {
-  margin: auto;
-  width: 29%;
-  padding: 20px;
+
+nav {
+    background-color: rgb(15, 15, 54);
+    padding: 10px 0;
+    text-align: center;
 }
 
-.center-2 {
-  margin: auto;
-  width: 40%;
-  padding: 20px;
+.navButton {
+    display: inline-block;
+    margin: 0 10px;
 }
 
-.text-orange {
-  color: orange;
+.navButton a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
 }
 
-.text-teal {
-  color: teal;
+
+.classCenter {
+    max-width: 800px;
+    margin: 0 auto ;
+    padding: 20px;
 }
 
-.fs_40 {
-  font-size: 40px;
+
+#bio {
+    margin-bottom: 30px;
 }
 
-.sfondo {
-  background-color: rgba(255, 165, 0, 0.2);
+
+#education_and_training {
+    margin-bottom: 30px;
 }
 
-.fs_50 {
-  font-size: 50px;
+.intestation {
+    color: rgb(212, 20, 20);
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
 }
 
-.fs_70 {
-  font-size: 70px;
+
+#passionsSection {
+    margin-bottom: 30px;
 }
 
-h2 {
-  color: darkgreen;
-}
 
-h3 {
-  color: lightgrey;
-}
-
-.text-fuchsia {
-  color: fuchsia;
-}
-
-.text-light-green {
-  color: lightgreen;
+#lettura-img {
+    margin-top: 15px;
+    width: 230px;
 }

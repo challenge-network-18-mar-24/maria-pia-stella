@@ -1,62 +1,77 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Pagina di presentazione di Maria Pia Stella">
-  <title>Maria Pia Stella</title>
   <link rel="stylesheet" href="./css/style.css">
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+
+  <title>Presentation</title>
 </head>
 
 <body>
-  <div class="sfondo">
-    <div class="center card">
-      <h1><b>Presentazione di Maria Pia</b></h1>
-    </div>
+  <div id="fix">
+    <header>
+      <h1>Maria Pia Stella</h1>
+    </header>
 
-    <div class="text-orange fs_40 center-1">
-      <ul>
-        <li>Data di nascita: 06/11/2003</li> <!-- Corretto "dinascita" in "di nascita" -->
-        <li>Età: 20</li>
-        <li>Città: Barletta</li>
-        <li>Indirizzo: Via Roma, 123</li>
-      </ul>
-    </div>
+    <nav>
+      <div class="navButton">
+        <a href="#bio" id="profileButton">Bio</a>
+      </div>
+      <div class="navButton">
+        <a href="#education_and_training" id="educationAndTrainingButton">Istruzione e Formazione</a>
+      </div>
+      <div class="navButton">
+        <a href="#passionsSection" id="passionsButton">Passions</a>
+      </div>
 
-    <div class="center 2">
-      <h2><i>Interessi e passioni</i></h2>
-    </div>
+    </nav>
+  </div>
 
-    <div class="text-teal center-1 fs_40">
-      <ul>
-        <li>Teatro</li>
-        <li>Tecnologia</li>
-        <li>Musica</li>
-        <li>Animali</li>
-      </ul>
-      <img src="./immagine/teatro.webp" alt="Teatro Curci" width="190" height="190">
-      <img src="./immagine/tecnologia.webp" alt="Informatica" width="190" height="190">
-      <img src="./immagine/coldplay.webp" alt="Coldplay" width="200" height="200">
-      <img src="./immagine/golden.web.avif" alt="Golden Retriever" width="200" height="200">
-    </div>
+  <div class="classCenter">
+    <main>
+      <section id="bio">
+        <div class="placeholder"></div>
+        <p>
+          Mi chiamo Maria Pia Stella , ho 20 anni e sono di Barletta.
+          Sono una giovane e appassionata studentessa universitaria in informatica, attualmente nel secondo anno dei
+          miei studi. Ho completato il Liceo Classico Alfredo Casardi di Barletta e sto perseguendo la mia passione per
+          l'informatica attraverso l'istruzione universitaria.
+        </p>
+      </section>
 
-    <div class="text-fuchsia fs_40 center-2">
-      <h3>Attività preferite</h3>
-    </div>
+      <section id="education_and_training">
+        <div class="placeholder"></div>
+        <h5 class="intestation">Istruzione e formazione</h5>
+        <ul>
+          <li><i>[09/2017 - 07/2022]</i> Durante il liceo Classico ho sviluppato una comprensione dei principi etici e
+            morali attraverso lo studio della filosofia, della storia e della letteratura, così da agire in modo etico e
+            responsabile nelle mie azioni e nelle interazioni con gli altri.</li>
+          <li><i>[09/2022 - attuale]</i> Attualmente sto frequentando il secondo anno di Informatica presso l'Università
+            di Bari. </li>
+        </ul>
+      </section>
 
-    <div class="center-1 fs_50 text-light-green">
-      <ol type="I">
-        <li>Lettura</li>
-        <li>Cucina</li>
-        <li>Fotografia</li>
-        <li>Viaggiare</li>
-      </ol>
-      <img src="./immagine/lettura.webp" alt="Libro" width="200" height="200">
-      <img src="./immagine/cucina.webp" alt="Torta" width="200" height="200">
-      <img src="./immagine/fotografia.webp" alt="Macchina fotografica" width="200" height="200">
-      <img src="./immagine/travel.webp" alt="Viaggio" width="200" height="200">
-    </div>
+      <section id="passionsSection">
+        <div class="placeholder"></div>
+        <h5 class="intestation">Le mie passioni:</h5>
+        <ul>
+          <li>Lettura</li>
+          <li>Arte</li>
+          <li>Informatica</li>
+          <li>Palestra</li>
+        </ul>
+        <img src="./img/lettura.webp" id="lettura-img" alt="lettura-immagine">
+      </section>
+    </main>
   </div>
 </body>
 
