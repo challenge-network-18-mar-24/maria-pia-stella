@@ -1,35 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Presentazione di Maria Pia</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+
+  <title>Presentation</title>
 </head>
+
 <body>
+  <div id="fix">
+    <header>
+      <h1>Maria Pia Stella</h1>
+    </header>
 
-    <!--Titolo-->
-    <h1>La mia presentazione</h1>
+    <nav>
+      <div class="navButton">
+        <a href="#bio" id="profileButton">Bio</a>
+      </div>
+      <div class="navButton">
+        <a href="#education_and_training" id="educationAndTrainingButton">Istruzione e Formazione</a>
+      </div>
+      <div class="navButton">
+        <a href="#passionsSection" id="passionsButton">Passions</a>
+      </div>
 
-    <!--Paragrafo con le mie informazioni-->
-    <p>
-        <b>Salve a tutti !</b> <br/> <i> Ho 20 anni , vivo a Barletta e mi appassiona l'informatica</i>.
-        
-    </p>
+    </nav>
+  </div>
 
-    <!--Paragrafo con altre informazioni-->
-    <p>
-        <i>Nel tempo libero, frequento la palestra per allenarmi</i>.
-    </p>
+  <div class="classCenter">
+    <main>
+      <section id="bio">
+        <div class="placeholder"></div>
+        <h5 class="intestation">Biografia</h5>
+        <p>
+          Mi chiamo Maria Pia Stella , ho 20 anni e sono di Barletta.
+          Sono una giovane e appassionata studentessa universitaria in informatica, attualmente nel secondo anno dei
+          miei studi. Ho completato il Liceo Classico Alfredo Casardi di Barletta e sto perseguendo la mia passione per
+          l'informatica attraverso l'istruzione universitaria.
+        </p>
+        <img src="./img/barletta.webp" id="barletta-img" alt="La mia città">
+      </section>
 
-    <!--Lista interessi-->
-    <b>Lista dei miei interssi:</b>
-    <ol type="1">
-        <li>Musica</li>
-        <li>Arte</li>
-        <li>Cinema</li>
-    </ol>
+      <section id="education_and_training">
+        <div class="placeholder"></div>
+        <h5 class="intestation">Istruzione e formazione</h5>
+        <ul>
+          <li><i>[09/2017 - 07/2022]</i> Durante il liceo Classico ho sviluppato una comprensione dei principi etici e
+            morali attraverso lo studio della filosofia, della storia e della letteratura, così da agire in modo etico e
+            responsabile nelle mie azioni e nelle interazioni con gli altri.</li>
+          <li><i>[09/2022 - attuale]</i> Attualmente sto frequentando il secondo anno di Informatica presso l'Università
+            di Bari. </li>
+        </ul>
+      </section>
 
-     <!--Immagine -->
-     <img src="https://blog.italotreno.it/wp-content/uploads/2021/09/iStock-480794748-1140x660.jpg" alt=Immagine Barletta>
+      <section id="passionsSection">
+        <div class="placeholder"></div>
+        <h5 class="intestation">Le mie passioni:</h5>
+        <ul>
+          <li>Lettura</li>
+          <li>Arte</li>
+          <li>Informatica</li>
+          <li>Palestra</li>
+        </ul>
+        <img src="./img/lettura.webp id="lettura-img" alt="lettura-immagine">
+      </section>
+    </main>
+  </div>
 </body>
+
 </html>

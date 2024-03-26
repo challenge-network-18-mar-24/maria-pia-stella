@@ -1,0 +1,72 @@
+/* CSS Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Sunflower', sans-serif;
+    background-color: rgb(177, 165, 99);
+}
+
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+nav {
+    background-color: rgb(15, 15, 54);
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navButton {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.navButton a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+
+.classCenter {
+    max-width: 800px;
+    margin: 0 auto ;
+    padding: 20px;
+}
+
+
+#bio {
+    margin-bottom: 30px;
+}
+
+
+#education_and_training {
+    margin-bottom: 30px;
+}
+
+.intestation {
+    color: rgb(212, 20, 20);
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+
+#passionsSection {
+    margin-bottom: 30px;
+}
+
+
+#lettura-img {
+    margin-top: 15px;
+    width: 230px;
+}
