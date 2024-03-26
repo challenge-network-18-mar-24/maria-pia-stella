@@ -55,7 +55,7 @@ nav {
 }
 
 .intestation {
-    color: rgb(212, 20, 20);
+    color: rgb(198, 25, 25);
     font-family: 'Playfair Display', serif;
     font-weight: 700;
 }
@@ -74,5 +74,5 @@ nav {
 
 #barletta-img {
     margin-top: 15px;
-    width: 400px;
+    width: 300px;
 }
