@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Sunflower', sans-serif;
-    background-color: rgb(135, 127, 84);
+    background-color: rgb(35, 9, 25);
 }
 
 
@@ -21,7 +21,7 @@ header {
 
 
 nav {
-    background-color: rgb(15, 15, 54);
+    background-color: rgb(3, 3, 66);
     padding: 10px 0;
     text-align: center;
 }
@@ -44,35 +44,47 @@ nav {
     padding: 20px;
 }
 
-
-#bio {
-    margin-bottom: 30px;
-}
-
-
-#education_and_training {
-    margin-bottom: 30px;
-}
-
 .intestation {
-    color: rgb(198, 25, 25);
+    color: rgb(212, 20, 20);
     font-family: 'Playfair Display', serif;
     font-weight: 700;
 }
 
 
-#passionsSection {
+#bio {
     margin-bottom: 30px;
+    border: 5px solid black;
+    padding: 20px;
+    background-color: rgb(209, 178, 199);
 }
 
 
-#lettura-img {
+#education_and_training {
+    margin-bottom: 30px;
+    border: 5px solid black;
+    padding: 20px;
+    background-color: rgb(209, 178, 199);
+}
+
+#passionsSection {
+    margin-bottom: 30px;
+    border: 5px solid black;
+    padding: 20px;
+    background-color: rgb(209, 178, 199);
+}
+
+
+
+
+#maria-img {
     margin-top: 15px;
     width: 230px;
 }
 
 
-#barletta-img {
+
+
+#lettura-img {
     margin-top: 15px;
-    width: 300px;
+    width: 230px;
 }
